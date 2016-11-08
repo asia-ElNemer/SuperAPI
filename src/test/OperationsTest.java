@@ -9,6 +9,7 @@ import javax.ws.rs.core.Response;
 public class OperationsTest {
     private Operations operations;
 
+
     @Before
     public void setup() {
         operations = new Operations();

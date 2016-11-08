@@ -17,7 +17,7 @@ public class OperationsTest {
 
     @Test
     public void shouldSumGivenNumbers() {
-        Response addResponse = operations.add(new input(1, 2, 3));
+        Response addResponse = operations.add(new input(1, 25, 3));
         Truth.assertThat(addResponse.getEntity()).isEqualTo(6);
     }
 
